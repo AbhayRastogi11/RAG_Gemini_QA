@@ -30,7 +30,7 @@ rag-gemini-qa/
 │   ├── mongo_store.py           # MongoDB integration
 │   ├── qa_pipeline.py           # Retrieval + Gemini answer generation
 ├── data/
-│   └── sample.pdf               # Example PDF input
+│   └── sample_ml_guide.pdf               # Example PDF input
 ├── outputs/
 │   └── responses.json           # Stores generated Q&A pairs
 ├── main.py                      # Entry point for CLI
