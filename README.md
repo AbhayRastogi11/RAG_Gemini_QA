@@ -20,7 +20,7 @@ A Retrieval-Augmented Generation (RAG) application built with Python that:
 ---
 
 ## 🗂️ Project Structure
-bash
+```plaintext
 rag-gemini-qa/
 ├── app/
 │   ├── __init__.py
@@ -38,43 +38,43 @@ rag-gemini-qa/
 ├── .env                         # Environment variables (Git-ignored)
 ├── .gitignore                   # Ignored files & folders
 └── README.md
-
+```
 
 ---
 
 ## 🚪 Setup Instructions
 
 ### 1. Clone the Repository
-bash
-git clone https://github.com/yourusername/rag-gemini-qa.git
-cd rag-gemini-qa
-
+```bash
+git clone https://github.com/AbhayRastogi11/RAG_Gemini_QA.git
+cd RAG_Gemini_QA
+```
 
 ### 2. Create and Activate a Virtual Environment
-bash
+```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-
+```
 
 ### 3. Install Dependencies
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4. Configure Environment Variables
-Create a .env file in the root folder with the following:
-env
+Create a `.env` file in the root folder with the following:
+```env
 GEMINI_API_KEY=your_gemini_api_key_here
 MONGO_URI=your_mongodb_connection_string_here
-
+```
 
 ### 5. Add a Sample PDF
-Place a test document in the data/ folder and name it sample.pdf.
+Place a test document in the `data/` folder and name it `sample_ml_guide.pdf`.
 
 ### 6. Run the App
-bash
+```bash
 python main.py
-
+```
 You will be prompted to ask questions based on the PDF content!
 
 ---
@@ -89,21 +89,21 @@ You will be prompted to ask questions based on the PDF content!
 ---
 
 ## 🚀 Sample Output
-bash
+```bash
 🔎 Ask a question (or type 'exit'): What is the F1 score?
 💬 Answer: The F1 Score is the weighted average of Precision and Recall. It helps evaluate the balance between the two metrics...
-
+```
 
 ---
 
 ## 📝 Dependencies
-- PyMuPDF (fitz)
-- google-generativeai
-- pymongo
-- python-dotenv
-- faiss-cpu
+- PyMuPDF (`fitz`)
+- `google-generativeai`
+- `pymongo`
+- `python-dotenv`
+- `faiss-cpu`
 
-Optional: To use ChromaDB instead of FAISS, install chromadb.
+Optional: To use ChromaDB instead of FAISS, install `chromadb`.
 
 ---
 
@@ -114,3 +114,4 @@ Optional: To use ChromaDB instead of FAISS, install chromadb.
 - Deploy to Hugging Face Spaces or Replit
 
 ---
+
