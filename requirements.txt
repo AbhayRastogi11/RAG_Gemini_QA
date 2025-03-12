@@ -1,0 +1,7 @@
+google-generativeai
+pymongo
+python-dotenv
+PyMuPDF
+faiss-cpu
+fitz
+frontend
